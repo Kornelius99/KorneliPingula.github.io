@@ -1,1 +1,1 @@
-# KorneliPingula.github.io
+My data science portfolio

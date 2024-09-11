@@ -3,43 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Korneli Pingula's Data Science Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Korneli Pingula - Data Scientist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+        .portfolio-item {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-info {
+            margin: 10px 0;
+        }
+        /* Drag and Drop styles */
+        .editable {
+            border: 1px dashed #ccc;
+            padding: 5px;
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Korneli Pingula's Data Science Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1 class="editable" contenteditable="true">Korneli Pingula</h1>
+        <p class="editable" contenteditable="true">Data Scientist | Machine Learning | Analytics | AI</p>
     </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm Korneli Pingula, a data scientist with expertise in machine learning, data analysis, and data visualization...</p>
+        <p class="editable" contenteditable="true">
+            Experienced Data Science and Analytical professional with 10+ years of experience in Analytics,
+            Gen AI, Large Language Models (LLMs), machine learning, NLP, and business intelligence. Skilled in
+            Python, TensorFlow, and Power BI. Implemented AI solutions that boosted sales forecasting
+            accuracy by 30%. Spearheaded the deployment of a new BI system, resulting in a 30% improvement & 20% reduction in manual reporting efforts. Recognized for outstanding leadership,
+            achieving milestones ahead of schedule and maintaining a 95% client satisfaction rate.
+        </p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/KorneliPingula/project1">Project 1: Data Analysis with Python</a></li>
-            <li><a href="https://github.com/KorneliPingula/project2">Project 2: Machine Learning with Scikit-learn</a></li>
-            <!-- Add more projects -->
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="editable" contenteditable="true">
+            <h3>Data Analyst @ Step Change Outsourcing, Stevenage-UK | July 2023 – Present</h3>
+            <ul>
+                <li>Processed large amounts of data daily with SQL, Python, and Azure services, enhancing data precision by 35% and saving 40 hours per week in processing time.</li>
+                <li>Created Power BI dashboards, reducing manual data run time by 50% and increasing BI report reliability by 45%.</li>
+                <li>Applied ARIMA and Prophet models for sales trend forecasting with 95% accuracy, improving inventory management by 40%.</li>
+                <li>Executed clustering algorithms to segment the customer base, increasing marketing campaign success rates by 35% and customer retention by 20%.</li>
+                <li>Enhanced generative AI models with GPT-3 and BERT and delivered NLP models for text generation and summarization on AWS, Azure, and GCP, reducing content creation time by 40% and boosting consumer engagement by 25%.</li>
+            </ul>
+        </div>
+
+        <div class="editable" contenteditable="true">
+            <h3>Data Science – Team Lead @ Cognizant, Hyderabad-India | Feb 2020 – Jan 2021</h3>
+            <ul>
+                <li>Led and mentored a team to design Excel and Power BI dashboards, cutting reporting time by 40% and enhancing data-driven decision-making by 25%.</li>
+                <li>Engineered machine learning pipelines with TensorFlow and PyTorch, reducing data handling time by 30% and integrating models with Flask and Streamlit for predictions.</li>
+                <li>Containerized machine learning models with Docker, reducing deployment time by 45% and enhancing system reliability and performance by 30%.</li>
+            </ul>
+        </div>
+
+        <div class="editable" contenteditable="true">
+            <h3>Analytics – Team Lead @ IKS Health, Hyderabad-India | Dec 2017 – Mar 2019</h3>
+            <ul>
+                <li>Analyzed healthcare billing data, reducing claim denial rates by 25% and increasing revenue by 15%.</li>
+                <li>Built machine learning models, improving revenue collection efficiency by 15% and lowering denial rates by 10%.</li>
+                <li>Supervised a team of 10 analysts and established a data governance framework, reducing errors by 50% and enhancing data quality, delivering data insights that increased client revenue by 15%.</li>
+            </ul>
+        </div>
+
+        <div class="editable" contenteditable="true">
+            <h3>BI Developer @ Elico Health, Hyderabad-India | Jan 2016 – Nov 2017</h3>
+            <ul>
+                <li>Designed and maintained interactive dashboards and reports with Excel and Power BI, enabling stakeholders to access real-time data and make informed decisions.</li>
+                <li>Transformed business requirements into data models and ETL processes, streamlining data integration from several sources, reducing execution time by 30%, and enhancing data accuracy by 20%.</li>
+                <li>Constructed data warehouses and data marts, improving data accessibility, and supporting business intelligence, leading to a 35% increase in operational efficiency.</li>
+            </ul>
+        </div>
+
+        <div class="editable" contenteditable="true">
+            <h3>Claims Analyst @ E-Providercare Solutions, Hyderabad-India | May 2010 – Nov 2015</h3>
+            <ul>
+                <li>Managed and analyzed healthcare claims data to identify billing errors and fraudulent activities, reducing claim operation time and cost by 20%.</li>
+                <li>Developed automated claims processing workflows, reducing processing time by 35% and error rates by 20%.</li>
+                <li>Conducted data audits across 12 departments, ensuring compliance with healthcare regulations and industry standards, improving data quality by 25% and reducing compliance risks by 40%.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Certifications</h2>
+        <ul class="editable" contenteditable="true">
+            <li>Data Analysis Tools: Microsoft Excel, Power BI, Python, R, SQL Server</li>
+            <li>Cloud Platforms: Azure, AWS</li>
+            <li>Development & Deployment: Git/GitHub Actions, ML-Ops, Flask, Streamlit, Docker</li>
+            <li>AI & ML Frameworks: TensorFlow, scikit-learn, Generative AI, LLMs</li>
+            <li>APIs & Databases: FastAPI, LangChain, Chroma Database</li>
+        </ul>
+        <h3>Certifications</h3>
+        <ul class="editable" contenteditable="true">
+            <li>Certified Robotic Process Automation Developer (Blue Prism – AD01)</li>
+            <li>Certified Professional Scrum Master (PSM)</li>
         </ul>
     </section>
 
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+
+        <div class="portfolio-item editable" contenteditable="true">
+            <h3>Sales Analysis/Forecasting</h3>
+            <p>Employed machine learning models to forecast sales, enabling more accurate inventory management and strategic planning.</p>
+            <p><a href="#" target="_blank">View Code</a> | <a href="#" target="_blank">View Visualization</a></p>
+        </div>
+
+        <div class="portfolio-item editable" contenteditable="true">
+            <h3>Air Quality Index Prediction</h3>
+            <p>Created predictive models to assess air quality, providing insights for environmental health and policymaking.</p>
+            <p><a href="#" target="_blank">View Code</a> | <a href="#" target="_blank">View Visualization</a></p>
+        </div>
+    </section>
+
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:korneli.pingula@example.com">korneli.pingula@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/kornelipingula">LinkedIn Profile</a></p>
+        <h2>Contact Information</h2>
+        <p class="contact-info editable" contenteditable="true">Email: pingulak9@gmail.com</p>
+        <p class="contact-info editable" contenteditable="true">Phone: +44 07733819756</p>
+        <p class="contact-info editable" contenteditable="true">LinkedIn: <a href="https://www.linkedin.com/in/korneli-pingula/" target="_blank">Korneli Pingula</a></p>
+        <p class="contact-info editable" contenteditable="true">Website: <a href="https://kornelius99.co.uk" target="_blank">kornelius99.co.uk</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2024 Korneli Pingula</p>
+        <p>&copy; 2024 Korneli Pingula. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.querySelectorAll('.editable').forEach(item => {
+            item.addEventListener('dragstart', (e) => {
+                e.dataTransfer.setData('text/plain', e.target.innerHTML);
+            });
+
+            item.addEventListener('drop', (e) => {
+                e.preventDefault();
+                e.target.innerHTML = e.dataTransfer.getData('text/plain');
+            });
+
+            item.addEventListener('dragover', (e) => {
+                e.preventDefault();
+            });
+        });
+    </script>
 </body>
 </html>
